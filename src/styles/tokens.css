@@ -1,0 +1,39 @@
+/* Design tokens. Values sampled from the reference screenshot (ground #0f181f, road #2f3a43,
+   median #86916a in shade -> #c9dc4a lit, panel #0c1012, accent teal #1a857f, purple #4e3d6c). */
+:root {
+  --ground: #0f181f;
+  --ground-2: #161f26;
+  --pavement: #1a232a;
+  --kerb: #56626b;
+  --road: #2f3a43;
+  --lane: #e6eaee;
+  --median: #c9dc4a;
+  --sig-red: #ff4d4d;
+  --sig-amber: #ffc233;
+  --sig-green: #3be37a;
+  --tree: #5d8a3c;
+  --tree-dark: #3a5a28;
+  --trunk: #3b2f26;
+  --teal: #1fb5a5;
+  --teal-dim: #1a857f;
+  --purple: #6a3fd0;
+  --purple-dim: #4e3d6c;
+  --amb-blue: #3b82ff;
+  --amb-red: #ff3b3b;
+  --queue: #ffb347;
+  --blocked: #ff6b4a;
+
+  --panel: rgba(12, 16, 18, 0.84);
+  --panel-solid: #0c1012;
+  --border: rgba(230, 234, 238, 0.09);
+  --border-strong: rgba(230, 234, 238, 0.16);
+  --text: #dfe5ea;
+  --text-dim: #8e9aa4;
+  --text-faint: #5d6872;
+  --good: #3be37a;
+  --bad: #ff7a6b;
+  --radius: 6px;
+  --font: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --ease: cubic-bezier(0.22, 0.8, 0.26, 1);
+}
