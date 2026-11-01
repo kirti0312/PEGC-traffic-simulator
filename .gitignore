@@ -2,6 +2,3 @@
 node_modules/
 dist/
 
-# local working notes: kept in the project folder, not published to GitHub
-HANDOVER_PROMPT.md
-handover/
